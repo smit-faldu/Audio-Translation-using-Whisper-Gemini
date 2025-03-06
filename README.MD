@@ -34,7 +34,7 @@ This project is an **audio-to-text translation system** that transcribes speech 
 
 ### **1️⃣ Clone the Repository**
 ```sh
-git clone https://github.com/yourusername/audio-translation.git
+git clone https://github.com/smit-faldu/audio-translation.git
 cd audio-translation
 ```
 

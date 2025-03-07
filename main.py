@@ -6,7 +6,7 @@ import os
 from google import genai
 from google.genai import types
 from flask import Flask, request, render_template
-from pyngrok import ngrok
+from pyngrok import ngrok, conf
 from dotenv import load_dotenv
 
 

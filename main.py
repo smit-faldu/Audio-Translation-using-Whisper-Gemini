@@ -1,4 +1,4 @@
-
+import getpass
 import torch
 from transformers import AutoModelForSpeechSeq2Seq, AutoProcessor, pipeline
 import base64
@@ -13,6 +13,7 @@ from dotenv import load_dotenv
 GEMINI_API_KEY = os.getenv('GEMINI_API_KEY')
 
 app = Flask(__name__)
+conf.get_default().auth_token = getpass.getpass()
 
 # Create an 'uploads' directory to store audio files
 UPLOAD_FOLDER = "uploads"

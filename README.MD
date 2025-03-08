@@ -1,6 +1,8 @@
 # Audio Translation using Whisper & Gemini
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1sKnFmQjS4brkpffvyGIe4F6y1QiV4h33?usp=sharing)
+[![Try on Hugging Face](https://img.shields.io/badge/-HuggingFace-FDEE21?style=for-the-badge&logo=HuggingFace&logoColor=black)](https://huggingface.co/spaces/smit-faldu/Audio_Translation) 
+[![Open in Colab](https://img.shields.io/badge/Colab-F9AB00?style=for-the-badge&logo=googlecolab&color=525252)](https://colab.research.google.com/drive/1sKnFmQjS4brkpffvyGIe4F6y1QiV4h33?usp=sharing)
+
 
 ## 📌 Introduction
 This project is an **audio-to-text translation system** that transcribes speech from an uploaded `.mp3` or `.wav` file and translates it into the desired language. It utilizes **Whisper Large V3 Turbo** for speech recognition and **Google Gemini** for language translation.
